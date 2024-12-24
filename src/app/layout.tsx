@@ -22,9 +22,7 @@ export default function RootLayout({
         <link rel="stylesheet" href="./style.css" />
       </head>
       <body className={inter.className}>
-        <Navbar />
         {children}
-        <Footer />
       </body>
     </html>
   );
