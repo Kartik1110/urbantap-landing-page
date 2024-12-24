@@ -72,10 +72,11 @@ const Footer: React.FC = () => {
         </div>
 
         {/* Center - Terms of Use */}
-        <div className="flex flex-col items-start sm:items-center">
-          <a href="#" className="text-white text-sm sm:text-base">
+        <div className="flex flex-col items-start sm:items-center gap-4">
+          <a href="/termsandconditions" className="text-white text-sm sm:text-base">
             Terms of Use
           </a>
+          <a href="privacypolicy">Privacy Policy</a>
         </div>
 
         {/* Right side - Links and social icons */}
